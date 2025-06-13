@@ -5,6 +5,7 @@ import cashierlogo from '../asserts/cashierlogo.png'
 import { Button, Menu, MenuItem } from '@mui/material';
 import './topbar.css'
 import { blue } from '@mui/material/colors';
+
 function Headerpart() {
 
     const [anchorEl, setAnchorEl] = useState(null);
@@ -130,6 +131,7 @@ function Headerpart() {
             </div>
 
         </header>
+       
     </>)
 }
 export default Headerpart;

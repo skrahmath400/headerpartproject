@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+width:100vw;
+height: 100vh;
+background: #F2F2F2;
+
+}
+.profile-container{
+display: flex;
+margin: 2vw;
+border: 1px solid #D2D2D2;
+background: #F7F7F7;
+width:65vw;
+height: 6vh;
+padding: 5px;
+justify-content: space-between;
+border-radius: 6px;
+align-items: center;
+
+}
+.profile-container p{
+
+
+font-size: 1rem;
+font-style: Segoe UI;
+font-weight: 400;
+}
+.profile-date-container{
+display: flex;
+align-items: center;
+}
+.year-selector{
+border-radius: 15px;
+background: #3425FF;
+border: 1px solid #3425FF;
+width: 7.5vw;
+height: 5vh;
+
+
+}
+.year-selector p{
+  padding: 3px;;
+}
